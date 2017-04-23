@@ -31,11 +31,17 @@ public class Products {
     }
 
     public void setProduct_colour(int product_colour) {
+
         this.product_colour = product_colour;
     }
 
     public Products(int product_id, String product_name, int product_colour) {
         this.product_id = product_id;
+        this.product_name = product_name;
+        this.product_colour = product_colour;
+    }
+
+    public Products(String product_name, int product_colour) {
         this.product_name = product_name;
         this.product_colour = product_colour;
     }
